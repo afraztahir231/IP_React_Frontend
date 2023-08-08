@@ -1,0 +1,129 @@
+.submit{
+  position : relative;
+  background-color : #3533cd;
+  top : -5vh;
+  height : 4.7vh;
+  border-radius : 0 0 40px 40px;
+  width : 69.19vw;
+  border : none;
+  color : white;
+}
+
+.submit:hover{
+  position : relative;
+  background-color : #000000;
+  top : -5vh;
+  height : 4.7vh;
+  border-radius : 0 0 40px 40px;
+  width : 69.19vw;
+  border : none;
+  color : white;
+}
+
+
+.form_style{
+  position : relative;
+  border-radius : 25px;
+  border : 0px;
+  top : 25vh;
+  left : 30.7vw;
+  height : 5vh;
+  width : 15vh;
+  background-color : white;
+  text-align : center;
+}
+
+.form_style:hover{
+  position : relative;
+  border-radius : 25px;
+  border : 0px;
+  top : 25vh;
+  left : 30.7vw;
+  height : 5vh;
+  width : 15vh;
+  background-color : lightgray;
+  text-align : center;
+}
+
+.menu_button{
+  position : relative;
+  background-color : transparent;
+  width : 5vh;
+  height : 5vh;
+  border : 0px;
+  border-radius : 5px;
+  top : -95vh;
+  left : 91vw;
+}
+
+.menu_button:hover{
+  position : relative;
+  background-color : transparent;
+  width : 5vh;
+  height : 5vh;
+  border : 0px;
+  border-radius : 5px;
+  top : -95vh;
+  left : 91vw;
+  border : 1px solid white;
+}
+
+.menu_button_clicked{
+  position : relative;
+  background-color : transparent;
+  width : 5vh;
+  height : 5vh;
+  border : 0px;
+  top : 9.5vh;
+  left : 6vw;
+  border-radius : 5px;
+}
+
+.menu_button_clicked:hover{
+  position : relative;
+  background-color : transparent;
+  width : 5vh;
+  height : 5vh;
+  border : 0px;
+  border-radius : 5px;
+  border : 1px solid white;
+}
+
+.spinner_upload {
+  position : relative;
+  top : -50vh;
+  left : 33vw;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading_upload {
+  position : relative;
+  top : -50vh;
+  left : 32.5vw;
+  color : white;
+}
+
+.enhance{
+  position : relative;
+  background-color : #3533cd;
+  top : -5vh;
+  height : 4.7vh;
+  border-radius : 0 0 40px 40px;
+  width : 69.19vw;
+  border : none;
+  color : white;
+}
