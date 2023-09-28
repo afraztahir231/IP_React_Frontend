@@ -1,0 +1,204 @@
+.spinner {
+  position : relative;
+  top : 33vh;
+  left : 33vw;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  position : relative;
+  top : 33vh;
+  left : 33vw;
+  color : white;
+}
+
+.enhance_compare{
+  position : relative;
+  height : 4vh;
+  width : 8vw;
+  top : 2vh;
+  left : 23vw;
+  border-radius: 20px;
+  background-color: white;
+  border : none;
+}
+
+.enhance_compare:hover{
+  position : relative;
+  height : 4vh;
+  width : 8vw;
+  top : 2vh;
+  left : 23vw;
+  border-radius: 20px;
+  background-color: lightgray;
+  border : none;
+}
+
+.enhance_back{
+  position : relative;
+  height : 4vh;
+  width : 8vw;
+  top : 2vh;
+  left : 18vw;
+  border-radius: 20px;
+  background-color: white;
+  border : none;
+}
+
+.enhance_back:hover{
+  position : relative;
+  height : 4vh;
+  width : 8vw;
+  top : 2vh;
+  left : 18vw;
+  border-radius: 20px;
+  background-color: lightgray;
+  border : none;
+}
+
+.enhance_compare_link{
+  color : black;
+  text-decoration: none;
+}
+
+.download_button{
+  position : relative;
+  height : 4vh;
+  width : 8vw;
+  top : 2vh;
+  left : 28vw;
+  border-radius: 20px;
+  background-color: white;
+  border : none;
+}
+
+.download_button:hover{
+  position : relative;
+  height : 4vh;
+  width : 8vw;
+  top : 2vh;
+  left : 28vw;
+  border-radius: 20px;
+  background-color: lightgray;
+  border : none;
+}
+
+.e_div1_style{
+  position: relative;
+  background-image: linear-gradient(to right, #000000 5%, #3533cd);
+  height: 100vh;
+  width: 100vw;
+  top: -2.5vh;
+}
+
+.e_h1_style{
+    position : relative;
+    color : white;
+    top : 5vh;
+    text-align : center;
+}
+
+.e_p_style{
+  position : relative;
+  color : white;
+  top : 4vh;
+  text-align :center;
+}
+
+.e_upload_div{
+  position : relative;
+  border: 3px dotted white;
+  border-radius : 40px;
+  height : 74.38vh;
+  width : 69.19vw;
+  top : 7vh;
+  left : 15vw;
+}
+
+/*.e_button1_style{
+  position : "relative";
+  borderRadius : "25px";
+  border : "0px";div_fill
+  top : "25vh";
+  left : "30.7vw";
+  height : "5vh";
+  width : "15vh";
+}
+
+.e_small_p{
+  position : "relative";
+  color : "white";
+  top : "25vh";
+  fontSize : "10px";
+  textAlign : "center";
+}*/
+
+.e_img_container{
+    position : relative;
+    height : 20vh;
+    width : 10vw;
+    top : -7vh;
+    left : 88vw;
+}
+
+.e_img_style{
+    max-width : 20vh;
+    max-height : 20vh;
+    display : block;
+}
+
+/*.e_triple_img{
+    maxHeight : "100%";
+    maxWidth : "100%";
+}*/
+
+.e_menu{
+  position : absolute;
+  top : 0vh;
+  width: 15vw;
+  left: 85vw;
+  height: 100vh;
+  padding: 0px;
+  background-image: linear-gradient(to right, lightgray, #737373);
+  overflow: hidden;
+  transition: width 0.00001s ease-in;
+}
+
+.e_img_clicked{
+  max-height: 100%;
+  max-width : 100%;
+}
+
+.e_name{
+  position : relative;
+  color :white;
+  top : 12.5vh;
+  font-size : 24px;
+}
+
+/*.e_form_p{
+  position : "relative";
+  top : "1.5vh";
+}*/
+
+.e_image_uploaded{
+  max-height : 100%;
+  max-width : 100%;
+  min-height : 100%;
+  min-width : 100%;
+  border-radius : 40px;
+}

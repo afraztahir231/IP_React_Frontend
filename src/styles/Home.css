@@ -1,0 +1,134 @@
+.home_main_div{
+    position: relative;
+    background-image: linear-gradient(to right, #000000 5%, #3533cd);
+    min-height : 100vh;
+    min-width: 100vw;
+}
+
+.home_welcome{
+    position : relative;
+    color : white;
+    margin: 30px;
+}
+
+.home_enhance{
+    position : relative;
+    color : white;
+    font-size: 100px;
+    margin: 30px;
+}
+
+.home_exp{
+    position : relative;
+    color : white;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.home_head{
+    position : relative;
+    height : 40vh;
+    width : 45vw;
+    top : 25vh;
+    left : 30vw;
+    padding : 20px;
+}
+
+.spinning_border{
+    position : absolute;
+    height : 50vh;
+    width : 50vh;
+    top : 20vh;
+    left : 40vw;
+    padding : 20px;
+    border: 3px dotted transparent; /* Initial transparent border */
+    border-radius: 50%; /* Circular shape */
+    animation: spin 200s linear infinite; /* Apply animation */
+}
+
+.spinning_border::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 4px dotted #793FDF; /* Border color */
+    border-radius: inherit;
+    animation: spin 200s linear infinite;
+    pointer-events: none; /* Prevent pseudo-element from interfering with content */
+    z-index: -1; /* Place the pseudo-element below the content */
+}
+
+.spinning_border_2{
+    position : absolute;
+    height : 25vh;
+    width : 25vh;
+    top : 45vh;
+    left : 30vw;
+    padding : 20px;
+    border: 3px dotted transparent; /* Initial transparent border */
+    border-radius: 50%; /* Circular shape */
+    animation: spin 100s linear infinite; /* Apply animation */
+}
+
+.spinning_border_2::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 4px dotted #0074d9; /* Border color */
+    border-radius: inherit;
+    animation: spin 100s linear infinite;
+    pointer-events: none; /* Prevent pseudo-element from interfering with content */
+    z-index: -1; /* Place the pseudo-element below the content */
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.home_img_container{
+    position : relative;
+    height : 15vh;
+    width : 15vw;
+    top : 30vh;
+    left : 85vw;
+}
+
+.home_img_style{
+    max-width : 100%;
+    max-height : 100%;
+    position : relative;
+}
+
+.home_login{
+    position : relative;
+    top : 12.5vh;
+    left : 18vw;
+    width : 10vw;
+    background: transparent;
+    border : none;
+    color : white;
+    font-size : 20px;
+    text-decoration: none;
+}
+
+.home_signup{
+    position : relative;
+    top : 12.5vh;
+    left : 20vw;
+    width : 10vw;
+    background: transparent;
+    border : none;
+    color : white;
+    font-size : 20px;
+    text-decoration : none;
+}

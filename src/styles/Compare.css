@@ -1,0 +1,165 @@
+.c_main_div{
+    position : relative;
+    top : 0vh;
+    left : 0vh;
+    background-image: linear-gradient(to right, #000000 5%, #3533cd);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.c_menu_button{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    border-radius : 5px;
+    top : 10vh;
+    left : 91vw;
+  }
+  
+  .c_menu_button:hover{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    border-radius : 5px;
+    top : 10vh;
+    left : 91vw;
+    border : 1px solid white;
+  }
+  
+  .c_menu_button_clicked{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    top : 10vh;
+    left : 6vw;
+    border-radius : 5px;
+  }
+  
+  .c_menu_button_clicked:hover{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    border-radius : 5px;
+    border : 1px solid white;
+  }
+
+  .c_menu{
+    position : absolute;
+    top : 0vh;
+    width: 15vw;
+    left: 85vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, lightgray, #737373);
+    transition: width 0.00001s ease-in;
+  }
+  
+  .c_img_clicked{
+    position : relative;
+    max-height: 100%;
+    max-width : 100%;
+  }
+
+  .c_img_container{
+    position : absolute;
+    height : 20vh;
+    width : 10vw;
+    top : 75vh;
+    left : 88vw;
+  }
+  
+  .c_img_style{
+    max-width : 10vw;
+    max-height : 20vh;
+    display : block;
+  }
+
+  .c_image_div{
+    position : relative;
+    top : 27vh;
+    left : 8vw;
+    border : 2px dotted white;
+    border-radius : 50px;
+    height : 50vh;
+    width : 40vw;
+    overflow: hidden;
+  }
+
+  .c_enhanced_div{
+    position : relative;
+    top : -23.5vh;
+    left : 50vw;
+    border : 2px dotted white;
+    border-radius : 50px;
+    height : 50vh;
+    width : 40vw;
+    overflow: hidden;
+  }
+
+  .c_image_style{
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width : 100%;
+    border-radius : 50px;
+    transform-origin: center;
+    object-fit: cover;
+    cursor : zoom-in;
+  }
+
+  .c_enhanced_style{
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width : 100%;
+    border-radius : 50px;
+    transform-origin: center;
+    object-fit: cover;
+    cursor : zoom-in;
+  }
+
+  .c_back{
+    position : relative;
+    top : -15vh;
+    left : 44.5vw;
+    height : 4vh;
+    width : 10vw;
+    border-radius : 20px;
+    border : none;
+  }
+
+  .c_back:hover{
+    position : relative;
+    top : -15vh;
+    left : 44.5vw;
+    height : 4vh;
+    width : 10vw;
+    border-radius : 20px;
+    border : none;
+    background-color: lightgray;
+  }
+
+  .c_h1_style{
+    position : absolute;
+    color : white;
+    top : 5vh;
+    left : 44.8vw;
+    text-align : center;
+  }
+
+  .c_p_style{
+    position : absolute;
+    color : white;
+    top : 10vh;
+    left : 43.7vw;
+    text-align : center;
+  }

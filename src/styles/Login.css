@@ -1,0 +1,225 @@
+.login_butt{
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    height: 3vh;
+    width: 10vw;
+    background-color : white;
+    color: black;
+    border-radius: 20px;
+    border : none;
+}
+
+.login_butt:hover{
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    height: 3vh;
+    width: 10vw;
+    background-color : lightgray;
+    color: black;
+    border-radius: 20px;
+    border : none;
+}
+
+.login_create{
+    color : white;
+    text-decoration: none;
+}
+
+.login_create:visited{
+    color : lightblue;
+    text-decoration: none;
+}
+
+.login_menu_button{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    border-radius : 5px;
+    top : 13vh;
+    left : 91vw;
+  }
+  
+  .login_menu_button:hover{
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    border-radius : 5px;
+    border : 1px solid white;
+  }
+  
+  .login_menu_button_clicked{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    top : 13vh;
+    left : 6vw;
+    border-radius : 5px solid white;
+  }
+  
+  .login_menu_button_clicked:hover{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    border-radius : 5px;
+    border : 1px solid white;
+  }
+
+  .login_main_div{
+    position : absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #000000 5%, #3533cd);
+  }
+
+  .login_form_div{
+    position : relative;
+    display : grid;
+    top : 10vh;
+    left : 31vw;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height : 50vh;
+    width: 35vw;
+    color: white;
+    border : 3px dotted white;
+    border-radius : 60px;
+    justify-content: center;
+  }
+
+  .login_login{
+    top : 4vh;
+    left : 0vw;
+    position : relative; 
+    color: white; 
+  }
+
+  .login_username{
+    position : relative;
+    height : 3vh;
+    width : 20vw;
+    top : 0vh;
+    left : 0vw;
+    border-radius : 20px;
+  }
+
+  .login_password{
+    position : relative;
+    height : 3vh;
+    width : 20vw;
+    top : 0vh;
+    left : 0vw;
+    border-radius : 20px;
+  }
+
+  .login_header{
+    position : relative;
+    top : 10vh;
+    left : 44vw;
+    color : white;
+    height: 5vh;
+    width : 30vh;
+  }
+
+  .login_small_header{
+    position : relative;
+    top : 8vh;
+    left : 43.75vw;
+    color : white;
+    height: 5vh;
+    width : 30vh;
+  }
+
+  .login_img_container{
+    position : absolute;
+    height : 20vh;
+    width : 10vw;
+    top : 78vh;
+    left : 88vw;
+}
+
+.login_img_style{
+    max-width : 100%;
+    max-height : 100%;
+    position : absolute;
+}
+
+.login_menu{
+    position : absolute;
+    top : 0vh;
+    width: 15vw;
+    left: 85vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, lightgray, #737373);
+    transition: width 2100ms ease-in;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_home{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: none;
+  margin-left : -3px
+}
+
+.login_home:hover{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  padding : 2px;
+}
+
+.login_instr{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: none;
+  margin-top : 15px;
+}
+
+.login_instr:hover{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: underline;
+  margin-top : 15px;
+}
+
+.login_img_clicked{
+    max-height: 100%;
+    max-width : 100%;
+}
+
+.login_info{
+  position : relative;
+  top : 30vh;padding : 2px;
+  display : grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_fill{
+  position : relative;
+  top : 10.2vh;
+  height : 2vh;
+  width : 35vw;
+}
+
+.form_contain{
+  position : relative;
+  top : -3vh;
+}

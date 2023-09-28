@@ -1,0 +1,385 @@
+.submit{
+  position : relative;
+  background-color : #3533cd;
+  top : -9.7vh;
+  left : 34.5vw;
+  height : 4.7vh;
+  border-radius : 0 0 40px 0;
+  width : 34.7vw;
+  border : none;
+  color : white;
+}
+
+.submit:hover{
+  position : relative;
+  background-color : #000000;
+  top : -9.7vh;
+  height : 4.7vh;
+  border-radius : 0 0 40px 0;
+  width : 34.7vw;
+  border : none;
+  color : white;
+}
+
+
+.form_style{
+  position : relative;
+  border-radius : 25px;
+  border : 0px;
+  top : 25vh;
+  left : 30.6vw;
+  height : 5vh;
+  width : 15vh;
+  background-color : white;
+  text-align : center;
+}
+
+.form_style:hover{
+  position : relative;
+  border-radius : 25px;
+  border : 0px;
+  top : 25vh;
+  left : 30.6vw;
+  height : 5vh;
+  width : 15vh;
+  background-color : lightgray;
+  text-align : center;
+}
+
+.form_video_style{
+  position : relative;
+  border-radius : 25px;
+  border : 0px;
+  top : 25vh;
+  left : 30.6vw;
+  height : 5vh;
+  width : 15vh;
+  background-color : white;
+  text-align : center;
+}
+
+.form_video_style:hover{
+  position : relative;
+  border-radius : 25px;
+  border : 0px;
+  top : 25vh;
+  left : 30.6vw;
+  height : 5vh;
+  width : 15vh;
+  background-color : lightgray;
+  text-align : center;
+}
+
+.u_menu_button{
+  position : absolute;
+  background-color : transparent;
+  width : 5vh;
+  height : 5vh;
+  border : 0px;
+  border-radius : 5px;
+  top : 10vh;
+  left : 91vw;
+}
+
+.u_menu_button:hover{
+  position : absolute;
+  background-color : transparent;
+  width : 5vh;
+  height : 5vh;
+  border : 0px;
+  border-radius : 5px;
+  top : 10vh;
+  left : 91vw;
+  border : 1px solid white;
+}
+
+.u_menu_button_clicked{
+  position : absolute;
+  background-color : transparent;
+  width : 5vh;
+  height : 5vh;
+  border : 0px;
+  top : 10vh;
+  left : 6vw;
+  border-radius : 5px;
+}
+
+.u_menu_button_clicked:hover{
+  position : absolute;
+  background-color : transparent;
+  width : 5vh;
+  height : 5vh;
+  border : 0px;
+  border-radius : 5px;
+  border : 1px solid white;
+}
+
+.spinner_upload {
+  position : relative;
+  top : -50vh;
+  left : 33vw;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading_upload {
+  position : relative;
+  top : -50vh;
+  left : 32.5vw;
+  color : white;
+}
+
+.upload_enhance{
+  position : relative;
+  background-color : #3533cd;
+  top : -9.75vh;
+  left : 34.5vw;
+  height : 4.7vh;
+  border-radius : 0 0 40px 0;
+  width : 34.7vw;
+  border : none;
+  color : white;
+}
+
+.upload_enhance:hover{
+  position : relative;
+  background-color : black;
+  top : -9.75vh;
+  left : 34.5vw;
+  height : 4.7vh;
+  border-radius : 0 0 40px 0;
+  width : 34.7vw;
+  border : none;
+  color : white;
+}
+
+.frameImage{
+  max-width: 30%;
+  border: 1px solid #ccc;
+  margin: 0px 5px;
+}
+
+.frameImage:hover{
+  max-width: 30%;
+  border: 3px solid #ccc;
+  margin: 0px 5px;
+}
+
+.upload_home{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: none;
+  
+}
+
+.upload_home:hover{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  text-decoration: underline;
+  border : none;
+}
+
+.upload_instr{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: none;
+  margin-top : 15px;
+}
+
+.upload_instr:hover{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: underline;
+  margin-top : 15px;
+}
+
+.upload_info{
+  position : relative;
+  top : 30vh;
+  padding : 2px;
+  display : grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload_username{
+  position : relative;
+  left : 1vw;
+  top : 0vh;
+  font-size: 20px;
+}
+
+.back{
+  position : relative;
+  background-color : white;
+  top : -5vh;
+  height : 4.7vh;
+  border-radius : 0 0 0 40px;
+  width : 34.7vw;
+  border : none;
+  color : black;
+}
+
+.back:hover{
+  position : relative;
+  background-color : #000000;
+  top : -5vh;
+  height : 4.7vh;
+  border-radius : 0 0 0 40px;
+  width : 34.7vw;
+  border : none;
+  color : white;
+}
+
+.video_instr{
+  position : relative;
+  color : white;
+  top : 2vh;
+  left : 7vw;
+}
+
+.u_div1_style{
+  position: relative;
+  background-image: linear-gradient(to right, #000000 5%, #3533cd);
+  min-height: 100vh;
+  min-width: 100vw;
+  top: -2.2vh;
+}
+
+.u_h1_style{
+    position : relative;
+    color : white;
+    top : 5vh;
+    text-align : center;
+}
+
+.u_p_style{
+  position : relative;
+  color : white;
+  top : 4vh;
+  text-align : center;
+}
+
+.u_video_instr{
+  position : relative;
+  top : 5vh;
+  left : 40vw;
+  color : white;
+  font-size: 20px;
+}
+
+.u_upload_div{
+  position : relative;
+  border: 3px dotted white;
+  border-radius : 40px;
+  height : 74.38vh;
+  width : 69.19vw;
+  top : 7vh;
+  left : 15vw;
+}
+
+.u_menu{
+  position : absolute;
+  top : 0vh;
+  width: 15vw;
+  left: 85vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, lightgray, #737373);
+  transition: width 0.00001s ease-in;
+}
+
+.u_img_clicked{
+  position : relative;
+  max-height: 100%;
+  max-width : 100%;
+}
+
+.u_form_p{
+  position : relative;
+  top : 1.5vh;
+}
+
+.u_image_uploaded{
+  max-height : 100%;
+  max-width : 100%;
+  min-height : 100%;
+  min-width : 100%;
+  border-radius : 40px;
+}
+
+.u_video_player{
+  position : relative;
+  min-height : 100%;
+  min-width : 100%;
+  max-height : 100%;
+  max-width : 100%;
+  top : 0vh;
+  border-radius : 34px;
+}
+
+.u_framesRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 6vh;
+    color : white;
+}
+
+.u_frameImage{
+    max-width: 100%;
+    border: 1px solid #ccc;
+    margin: 0px 5px;
+    left : -10vh;
+}
+
+.u_img_container{
+  position : absolute;
+  height : 20vh;
+  width : 10vw;
+  top : 75vh;
+  left : 88vw;
+}
+
+.u_img_style{
+  max-width : 10vw;
+  max-height : 20vh;
+  display : block;
+}
+
+.u_small_p{
+  position : relative;
+  top : 25vh;
+  left : 31.2vw;
+  color : white;
+  font-size: 12px;
+  width : 20vw;
+}
+
+.u_small_p_video{
+  position : relative;
+  top : 25vh;
+  left : 32.2vw;
+  color : white;
+  font-size: 12px;
+  width : 20vw;
+}

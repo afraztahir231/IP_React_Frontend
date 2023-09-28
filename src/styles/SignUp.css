@@ -1,0 +1,270 @@
+.signup_butt{
+    position: relative;
+    top : 0vh;
+    left : 0vw;
+    height : 3vh;
+    background-color: #3533cd;
+    width : 10vw;
+    border-radius : 20px;
+    border : none;
+    color : white
+}
+
+.signup_butt:hover{
+    position: relative;
+    top : 0vh;
+    left : 0vw;
+    height : 3vh;
+    background-color: gray;
+    color : white;
+    width : 10vw;
+    border-radius : 20px;
+}
+
+.signup_form_butt{
+  position: relative;
+  top : 10vh;
+  left : 12.5vw;
+  height : 3vh;
+  background-color: #3533cd;
+  width : 10vw;
+  border-radius : 20px;
+}
+
+.signup_form_butt:hover{
+  position: relative;
+  top : 10vh;
+  left : 12.5vw;
+  height : 3vh;
+  background-color: gray;
+  color : white;
+  width : 10vw;
+  border-radius : 20px;
+}
+
+.linklog{
+    position : relative;
+    color : white;
+    text-decoration: none;
+}
+
+.linklog:visited{
+    position : relative;
+    color : lightblue;
+    text-decoration: none;
+}
+
+.menu_button{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    border-radius : 5px;
+    top : 13vh;
+    left : 91vw;
+  }
+  
+  .menu_button:hover{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    border-radius : 5px;
+    top : 13vh;
+    left : 91vw;
+    border : 1px solid white;
+  }
+  
+  .menu_button_clicked{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    top : 13vh;
+    left : 6vw;
+    border-radius : 5px;
+  }
+  
+  .menu_button_clicked:hover{
+    position : absolute;
+    background-color : transparent;
+    width : 5vh;
+    height : 5vh;
+    border : 0px;
+    border-radius : 5px;
+    border : 1px solid white;
+  }
+
+.img_clicked{
+    max-height: 100%;
+    max-width : 100%;
+}
+
+.signup_menu{
+  position : absolute;
+  top : 0vh;
+  width: 15vw;
+  left: 85vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, lightgray, #737373);
+  transition: width 2100ms ease-in;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup_home{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: none;
+  margin-left : -3px
+}
+
+.signup_home:hover{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: underline;
+}
+
+.signup_instr{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: none;
+  margin-top : 15px;
+}
+
+.signup_instr:hover{
+  color : black;
+  font-size : 24px;
+  background : transparent;
+  border : none;
+  text-decoration: underline;
+  margin-top : 15px;
+}
+
+.signup_info{
+  position : relative;
+  top : 30vh;
+  display : grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup_main_div{
+  position : absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, #000000 5%, #3533cd);
+}
+
+.signup_form_div{
+position : relative;
+height : 55vh;
+border : 5px dotted white;
+border-radius: 60px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+width: 35vw;
+color:white;
+background-color: transparent;
+top : 10vh;
+left : 31.5vw;
+}
+
+.signup_signup{
+position : relative;
+top : 5vh;
+}
+
+.signup_username_fill{
+position : relative;
+top : 5vh;
+left : 0vw;
+height : 3vh;
+width : 15vw;
+border-radius : 20px;
+border : 1px solid black;
+}
+
+.signup_email_fill{
+position : relative;
+top : 5vh;
+left : 0vw;
+height : 3vh;
+width : 15vw;
+border-radius : 20px;
+border : 1px solid black;
+}
+
+.signup_password_fill{
+position : relative;
+top : 5vh;
+left : 0vw;
+height : 3vh;
+width : 15vw;
+border-radius : 20px;
+border : 1px solid black;
+}
+
+.signup_confirm_fill{
+position : relative;
+top : 5vh;
+left : 0vw;
+height : 3vh;
+width : 15vw;
+border-radius : 20px;
+border : 1px solid black;
+bottom : 0vh;
+}
+
+.signup_small{
+position : relative;
+top : 12vh;
+left : 0vw;
+}
+
+.signup_header{
+position : relative;
+top : 10vh;
+left : 44vw;
+color : white;
+height : 5vh;
+width : 20vw;
+}
+
+.signup_small_header{
+position : relative;
+top : 10vh;
+left : 43.7vw;
+color : white;
+height : 5vh;
+width : 20vw;
+}
+
+.signup_img_container{
+position : absolute;
+height : 20vh;
+width : 10vw;
+top : 70vh;
+left : 85vw;
+}
+
+.signup_img_style{
+max-width : 20vh;
+max-height : 20vh;
+display : block;
+}
+
+.signup_div_fill{
+position : relative;
+height : 1vh;
+top : 5vh;
+}

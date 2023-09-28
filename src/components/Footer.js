@@ -10,15 +10,8 @@ const Footer = () => {
         textAlign : "center",
     };
 
-    const text = {
-        position : "relative",
-        top : "3vh",
-        color : "white",
-    };
-
 return (
     <div style = {main_div}>
-      <p style = {text}>Copyright NESCOM</p>
     </div>
   )
 }
